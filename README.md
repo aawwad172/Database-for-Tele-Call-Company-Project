@@ -5,6 +5,7 @@ Tables
 The database includes the following tables:
 
 `CUSTOMERS`: contains customer information such as ID, social security number (SSN), phone number, address, first name, last name, and full name.
+
 `BILL`: contains information about customer bills, including the bill ID, price, subscription type, and customer ID.
 
 `SUBSCRIPTION`: contains information about customer subscriptions, including the subscription description, supplier name, date of purchase, subscription price, customer ID, and bill ID.
