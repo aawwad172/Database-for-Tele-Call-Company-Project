@@ -6,10 +6,15 @@ The database includes the following tables:
 
 `CUSTOMERS`: contains customer information such as ID, social security number (SSN), phone number, address, first name, last name, and full name.
 `BILL`: contains information about customer bills, including the bill ID, price, subscription type, and customer ID.
+
 `SUBSCRIPTION`: contains information about customer subscriptions, including the subscription description, supplier name, date of purchase, subscription price, customer ID, and bill ID.
+
 `DEPARTMENT`: contains information about the company's departments, including the department name and department ID.
+
 `EMPLOYEE`: contains information about the company's employees, including employee ID, birth date, email, salary, social security number (SSN), first name, last name, full name, and department ID.
+
 `PROJECT`: contains information about the company's projects, including project ID, project name, budget, and department ID.
+
 `HAS_A`: a linking table between CUSTOMERS and other tables, allowing a customer to have multiple entries in one of the other tables.
 
 ## SQL Scripts
